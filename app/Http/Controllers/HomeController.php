@@ -10,4 +10,9 @@ class HomeController extends Controller
     {
         return view('Admin.index');
     }
+
+    public function home()
+    {
+        return view('home.index');
+    }
 }
